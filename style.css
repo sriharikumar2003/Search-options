@@ -1,0 +1,43 @@
+.inside{
+    display:flex;
+    background-color: orange;
+    padding: 10px;
+    flex-direction: column;
+    width: 500px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 25px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+input{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+button{
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+
+}
+label{
+    font-size: 30px;
+}
+button:hover{
+    cursor: pointer;
+}
+
